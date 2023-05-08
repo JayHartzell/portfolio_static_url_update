@@ -1,5 +1,5 @@
 # alma portfolio url updater
-Sets the ```static_url``` field to the value found in ```static_url_override```in Ex Libris Alma electronic portfolios. Makes a ```GET``` request to pull the portfolio object, then a ```PUT``` request to send it back after modifying the url string.
+Sets the ```static_url``` field to the value found in ```static_url_override```in Ex Libris Alma electronic portfolios. Makes a ```GET``` request to pull the portfolio object, then a ```PUT``` request to send it back after modifying the ```static_url``` value.
 
 
 Requires a spreadsheet generated from Analytics containing the columns ```Portfolio Id```, ```Collection Id```, and ```Service Id``` for the portfolios you want to change.  You will need to type the full name of the file in the following code cell:
